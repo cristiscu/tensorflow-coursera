@@ -1,3 +1,6 @@
+# Binary Classifier with Happy/Sad Images
+# images must be loaded in ../data/happy_or_sad/ folder, happy/ and sad/ subfolders
+# (do not have the original 150x150 40+40 smiley images!)
 # https://github.com/https-deeplearning-ai/tensorflow-1-public/blob/main/C1/W4/assignment/C1W4_Assignment.ipynb
 
 import os
@@ -57,4 +60,4 @@ model.compile(loss='binary_crossentropy',
 history = model.fit(gen, steps_per_epoch=2, epochs=20, callbacks=[myCallback()])
 
 # save model in H5 format, to submit for exam
-model.save('../saved_models/c1-w4-binary-classifier-with-happy-sad-images.h5')
+model.save('../saved_models/C1W4_Assignment.h5')

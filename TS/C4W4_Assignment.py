@@ -1,3 +1,4 @@
+# Predictions on Daily Min Temperature in Melbourne
 # https://github.com/https-deeplearning-ai/tensorflow-1-public/blob/main/C4/W4/assignment/C4W4_Assignment.ipynb
 import csv
 import numpy as np
@@ -168,4 +169,4 @@ mse, mae = compute_metrics(series_valid, rnn_forecast)
 print(f'mse: {mse:.2f}, mae: {mae:.2f}')
 
 # save model in H5 format
-model.save('../saved_models/c4-w4-predictions-on-daily-min-temps-in-melbourne.h5')
+model.save('../saved_models/C4W4_Assignment.h5')

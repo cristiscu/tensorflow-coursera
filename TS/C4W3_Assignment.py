@@ -1,3 +1,4 @@
+# Predictions with RNNs on Synthetic Data
 # https://github.com/https-deeplearning-ai/tensorflow-1-public/blob/main/C4/W3/assignment/C4W3_Assignment.ipynb
 import tensorflow as tf
 import numpy as np
@@ -177,4 +178,4 @@ print(f'mse: {mse:.2f}, mae: {mae:.2f}')
 
 
 # save model
-model.save('../saved_models/c4-w3-predictions-with-rnns-on-synthetic-data.h5')
+model.save('../saved_models/C4W3_Assignment.h5')

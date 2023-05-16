@@ -1,3 +1,4 @@
+# Binary Classifier on Dogs vs Cats
 # https://github.com/https-deeplearning-ai/tensorflow-1-public/blob/main/C2/W2/assignment/C2W2_Assignment.ipynb
 
 import os, random, shutil
@@ -168,4 +169,4 @@ plt.plot(epochs, val_loss, 'b', "Validation Loss")
 plt.show()
 
 # save model in H5 format, to submit for exam
-model.save('../saved_models/c2-w2-binary-classifier-on-dogs-vs-cats.h5')
+model.save('../saved_models/C2W2_Assignment.h5')

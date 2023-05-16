@@ -1,3 +1,4 @@
+# Model Predictions
 # https://github.com/https-deeplearning-ai/tensorflow-1-public/blob/main/C4/W2/assignment/C4W2_Assignment.ipynb
 import numpy as np
 import tensorflow as tf
@@ -140,4 +141,4 @@ print(f'mse: {mse:.2f}, mae: {mae:.2f}')
 
 
 # save model in H5 format, to submit for exam
-model.save('../saved_models/c4-w2-model-predictions.h5')
+model.save('../saved_models/C4W2_Assignment.h5')

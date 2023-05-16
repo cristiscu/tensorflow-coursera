@@ -1,5 +1,5 @@
+# Classifier on BBC News Archive
 # https://github.com/https-deeplearning-ai/tensorflow-1-public/blob/main/C3/W1/assignment/C3W1_Assignment.ipynb
-# https://github.com/https-deeplearning-ai/tensorflow-1-public/blob/main/C3/W2/assignment/C3W2_Assignment.ipynb
 
 import io
 import csv
@@ -136,4 +136,4 @@ out_v.close()
 out_m.close()
 
 # save model in H5 format, to submit for exam
-model.save('../saved_models/c3-w12-classifier-on-bbc-news-archive.h5')
+model.save('../saved_models/C3W1_Assignment.h5')
