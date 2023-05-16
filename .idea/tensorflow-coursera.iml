@@ -3,6 +3,7 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/data" />
+      <excludeFolder url="file://$MODULE_DIR$/saved_models" />
       <excludeFolder url="file://$MODULE_DIR$/venv38" />
       <excludeFolder url="file://$MODULE_DIR$/venv38/Lib" />
       <excludeFolder url="file://$MODULE_DIR$/venv38/Scripts" />
