@@ -1,4 +1,6 @@
 # Binary Classifier on Dogs vs Cats
+# must already have images in ../data/cats_and_dogs/ folder, Cat/ and Dog/ subfolders
+# this is a very large dataset (try on GPUs) --> "Allocation of 179437568 exceeds 10% of free system memory." errors!
 # https://github.com/https-deeplearning-ai/tensorflow-1-public/blob/main/C2/W2/assignment/C2W2_Assignment.ipynb
 
 import os, random, shutil
@@ -7,6 +9,7 @@ from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from shutil import copyfile
 import matplotlib.pyplot as plt
 
+# create directories
 root_dir = '../data/cats_and_dogs/'
 
 train_dir = os.path.join(root_dir, 'training/')
@@ -151,12 +154,14 @@ history = model.fit(train_generator,
                     validation_data=validation_generator)
 
 # visualize and estimate model performance
+# must have: training/validation accuracy >= 80%
+# and testing accuracy > training accuracy or max 5% diff
 acc = history.history['accuracy']
 val_acc = history.history['val_accuracy']
 loss = history.history['loss']
 val_loss = history.history['val_loss']
 
-epochs = range(len(acc))  # Get number of epochs
+epochs = range(len(acc))
 
 plt.plot(epochs, acc, 'r', "Training Accuracy")
 plt.plot(epochs, val_acc, 'b', "Validation Accuracy")
