@@ -1,5 +1,6 @@
 # Predictions with RNNs on Synthetic Data
 # https://github.com/https-deeplearning-ai/tensorflow-1-public/blob/main/C4/W3/assignment/C4W3_Assignment.ipynb
+
 import tensorflow as tf
 import numpy as np
 import matplotlib.pyplot as plt

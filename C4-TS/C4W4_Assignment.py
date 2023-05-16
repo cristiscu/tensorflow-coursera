@@ -1,5 +1,6 @@
 # Predictions on Daily Min Temperature in Melbourne
 # https://github.com/https-deeplearning-ai/tensorflow-1-public/blob/main/C4/W4/assignment/C4W4_Assignment.ipynb
+
 import csv
 import numpy as np
 import tensorflow as tf

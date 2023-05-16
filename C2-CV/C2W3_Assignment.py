@@ -4,7 +4,8 @@
 # this is a very large dataset (try on GPUs) --> "Allocation of 179437568 exceeds 10% of free system memory." errors!
 # https://github.com/https-deeplearning-ai/tensorflow-1-public/blob/main/C2/W3/assignment/C2W3_Assignment.ipynb
 
-import os, zipfile
+import os
+import zipfile
 import tensorflow as tf
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.applications.inception_v3 import InceptionV3

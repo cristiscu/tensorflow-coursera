@@ -1,9 +1,11 @@
 # Binary Classifier on Dogs vs Cats
-# must already have images in ../data/cats_and_dogs/ folder, Cat/ and Dog/ subfolders
+# must already have images in ../data/cats_and_dogs/ folder, training/validation and cats/dogs subfolders
 # this is a very large dataset (try on GPUs) --> "Allocation of 179437568 exceeds 10% of free system memory." errors!
 # https://github.com/https-deeplearning-ai/tensorflow-1-public/blob/main/C2/W2/assignment/C2W2_Assignment.ipynb
 
-import os, random, shutil
+import os
+import random
+import shutil
 import tensorflow as tf
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from shutil import copyfile
