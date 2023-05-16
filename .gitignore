@@ -3,3 +3,8 @@
 /data/cats_and_dogs/
 /data/cats_and_dogs.zip
 /data/happy_or_sad/
+/data/inception_v3_weights_tf_dim_ordering_tf_kernels_notop.h5
+*.tsv
+/data/horse-or-human.zip
+/data/validation-horse-or-human.zip
+/data/horse-or-human/
